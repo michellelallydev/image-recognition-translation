@@ -82,7 +82,7 @@ const ImageRecognition = () => {
       <div>
         <canvas
           ref={canvasRef}
-          style={{ maxWidth: '600px', maxHeight: '600px', marginTop: '20px', marginLeft: 'auto', marginRight: 'auto'}}
+          // style={{ maxWidth: '600px', maxHeight: '600px', marginTop: '20px', marginLeft: 'auto', marginRight: 'auto'}}
         ></canvas>
       </div>
     </div>

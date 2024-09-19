@@ -5,6 +5,7 @@ import './App.css';
 import React from "react";
 import Header from "./components/Header";
 import ImageRecognition from "./components/ImageRecognition";
+import TranslateImageRecognition from "./components/TranslateImageRecognition";
 
 const App = () => {
   return (
@@ -13,9 +14,9 @@ const App = () => {
       <div className="container mx-auto p-4">
         <div className="bg-gray-200 p-6 rounded-md">
           <h1 className="text-2xl font-bold mb-4">
-            Upload an Image for Recognition
+            Choose your language
           </h1>
-          <ImageRecognition />
+          <TranslateImageRecognition />
         </div>
       </div>
     </div>
